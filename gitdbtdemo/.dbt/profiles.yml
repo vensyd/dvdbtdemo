@@ -1,0 +1,14 @@
+# This is a an example dbt profile
+
+adfconfig: 
+  outputs: 
+    dev: 
+      database: ADFConfig
+      driver: "ODBC Driver 17 for SQL Server"
+      password: P@ssw0rd987!
+      port: 1433
+      schema: adf
+      server: desmssqldev.database.windows.net
+      type: sqlserver
+      user: desadmindev
+  target: dev

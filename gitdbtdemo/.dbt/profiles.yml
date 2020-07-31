@@ -7,7 +7,7 @@ adfconfig:
       driver: "ODBC Driver 17 for SQL Server"
       password: P@ssw0rd987!
       port: 1433
-      schema: adf
+      schema: dbo
       server: desmssqldev.database.windows.net
       type: sqlserver
       user: desadmindev

@@ -2,19 +2,19 @@
 version: 2
 
 models:
-    - name: my_first_dbt_model
-      description: "A starter dbt model"
+    - name: Top5Runs
+      description: "Get last 5 runs"
       columns:
-          - name: id
+          - name: RunId
             description: "The primary key for this table"
             tests:
                 - unique
                 - not_null
 
-    - name: my_second_dbt_model
-      description: "A starter dbt model"
+    - name: Top50RunDetails
+      description: "Get Last 50 run Details"
       columns:
-          - name: id
+          - name: PipelineRunId
             description: "The primary key for this table"
             tests:
                 - unique
